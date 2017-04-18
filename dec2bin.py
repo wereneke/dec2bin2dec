@@ -30,8 +30,7 @@ def check(a):      #sprawdzam czy liczba rzeczywiście składa się z 0 i 1
     for l in a:
         if l != '0' and l != '1':
             return False
-        else:
-            return True
+    return True
 
 
 
